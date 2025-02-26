@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #efc050;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100px;
+}
+
+h1,
+p {
+  margin: 0px;
+  padding: 10px;
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: #5d3fd3;
+}

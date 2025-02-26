@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício Formulário</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <img class="logo" src="./assets/bookLogo.svg" alt="Logo da empresa, a logo é um livro aberto com um marcador">
+      <ul class="linksNav">
+        <li><a href="#quemSomos">Quem somos</a></li>
+        <li><a href="#inscrever">Inscreva-se</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+
+    <!-- Seção "Quem somos" -->
+    <section id="quemSomos">
+      <h1>Conheça a nossa História!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam maximus varius neque, a fermentum tortor rhoncus in. Vivamus id bibendum odio, vel accumsan dui. In pretium erat libero, at volutpat quam facilisis molestie. Ut in dolor sed enim tincidunt pharetra id tincidunt felis. Aenean quam augue, rhoncus iaculis felis quis, pulvinar congue erat. Curabitur vitae eros quis mauris volutpat convallis. Maecenas eu vestibulum massa, id laoreet risus. Aliquam massa tortor, ultrices et odio ac, luctus consectetur ipsum. Nam egestas, risus in hendrerit porttitor, lorem tellus iaculis risus, et posuere sem nibh a arcu. In pulvinar, quam sit amet ornare congue, mauris urna condimentum ante, eu malesuada felis velit id tortor.
+      </p>
+    </section>
+
+    <!-- Seção "Increva-se" -->
+    <section id="inscrever">
+      <h1>Increva-se para receber notícias sobre o nosso programa!</h1>
+      <form action="/" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="topico">Tópico de interesse:</label>
+        <select name="topico" id="topico" required>
+          <option value="educacao">Educação</option>
+          <option value="pesquisa">Pesquisa</option>
+        </select>
+
+        <label for="comentario">Comentário:</label>
+        <textarea name="comentario" id="comentario" cols="100" rows="5">
+        </textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Seção "Contato" -->
+    <section id="contato">
+      <h1>Entre em contato com a nossa equipe!</h1>
+      <div class="contato">
+        <a href="tel:+552499999-9999">WhatsApp</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
+        <a href="teste@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 Educa - Todos os direitos reservados.</p>
+    </footer>
+
+  </main>
+</body>
+
+</html>

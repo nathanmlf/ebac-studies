@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #88d679;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+section {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+select {
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #88d679;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.25rem;
+  width: 100px;
+}
+
+button:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.linksNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.linksNav a {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.linksNav a:hover {
+  color: #88d679;
+  transition: 0.3s;
+}
+
+.contato {
+  display: flex;
+  gap: 20px;
+}
+
+.contato a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.contato a {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #88d679;
+}

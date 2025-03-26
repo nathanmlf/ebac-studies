@@ -1,0 +1,122 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input,
+select,
+option,
+p,
+form,
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  color: tomato;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.inputs {
+  padding: 10px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.inputs:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.selector {
+  padding: 10px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.selector:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.options {
+  padding: 10px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.adicionar {
+  padding: 10px;
+  background-color: bisque;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.adicionar:hover {
+  cursor: pointer;
+  background-color: tomato;
+}
+
+.valoresTop {
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.valores {
+  padding: 10px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.total {
+  padding: 10px;
+  background-color: rgba(255, 228, 196, 0.4);
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}

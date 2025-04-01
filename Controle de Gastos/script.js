@@ -39,7 +39,7 @@ function adicionarGasto() {
   const categoriaInformada = obterCategoriaInformada();
 
   if (valorNegativo(valorInformado)) {
-    alert("alor inválido. O valor não pode ser negativo.");
+    alert("Valor inválido. O valor não pode ser negativo.");
     return;
   }
   const categoria = obterCategoria(matrizGastos, categoriaInformada);
